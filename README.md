@@ -2,32 +2,31 @@
 
 This is a Java Applet that runs a simple fighting game project that I've called "Flatworm"
 
-Within src: 
+1. Within src: 
 
-Gameloop.java is the actual application.
+	* Gameloop.java is the actual application.
 
-Flatworm.java represents the Flatworm objects.
+	* Flatworm.java represents the Flatworm objects.
 
-NameParser.java parses text files for names used by the game loop and the Flatworm objects.
-(The text files parsed come from the Unites States Census Bureau's website: http://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html)
+	* NameParser.java parses text files for names used by the game loop and the Flatworm objects. (The text files parsed come from the Unites States Census Bureau's website: http://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html)
 
-FlatwormTest.java and NameParserTest.java serve as test classes for the respective namesake classes.
+	* FlatwormTest.java and NameParserTest.java serve as test classes for the respective namesake classes.
 
-The other java files serve as classes which I used to test certain functionalities (Hashing and Text Fields).
+	* The other java files serve as classes which I used to test certain functionalities (Hashing and Text Fields).
 
-Within src/img:
+2. Within src/img:
 
-Simple illustrations that I made for the game.
+	* Simple illustrations that I made for the game.
 
-Within src/txt:
+3. Within src/txt:
 
-The Census text files which I described above.
+	* The Census text files which I described above.
 
 ----
 
-Here is my original proposal:
+## Here is my original proposal:
 
-BACKGROUND
+### BACKGROUND
 
 "The flatworms, or Platyhelminthes, Plathelminthes, or platyhelminths (from the Greek πλατύ, platy, meaning "flat" and ἕλμινς (root: ἑλμινθ-), helminth-, meaning "worm")[2] are a phylum of relatively simple bilaterian, unsegmented, soft-bodied invertebrates. " -- Wikipedia entry for Flatworm
 
@@ -39,7 +38,7 @@ From a National Geographic video description, "For flatworms, "Who's your daddy?
 [...]
 One organism will inseminate the other, with the inseminating individual acting as the "father." The sperm is absorbed through pores or sometimes wounds in the skin from the partner's stylet, causing fertilization in the second, who becomes the "mother."[3][4][5] The battle may last for up to an hour in some species.[6]" -- Wikipedia entry for Penis fencing
 
-PROJECT
+### PROJECT
 
 Since the above was quite verbose, I'll try to keep the rest in very short terms. I found this sort of behavior rather humorous, and an idea of a simple two dimensional fighting game with very simple graphics, with rock-paper-scissors-esque logic (local players have a real-time selection of high-mid-low attacks that result in either a hit, block, or miss) in which the loser is respectfully made into the mother and the winner becomes the father.
 
