@@ -2,29 +2,29 @@
 
 This is a Java Applet that runs a simple fighting game project that I've called "Flatworm"
 
-1. Within src: 
+1. Within *src*: 
 
-	* Gameloop.java is the actual application.
+	* **Gameloop.java** is the actual application.
 
-	* Flatworm.java represents the Flatworm objects.
+	* **Flatworm.java** represents the Flatworm objects.
 
-	* NameParser.java parses text files for names used by the game loop and the Flatworm objects. (The text files parsed come from the Unites States Census Bureau's website: http://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html)
+	* **NameParser.java** parses text files for names used by the game loop and the Flatworm objects. (The text files parsed come from the Unites States Census Bureau's website: http://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html)
 
-	* FlatwormTest.java and NameParserTest.java serve as test classes for the respective namesake classes.
+	* **FlatwormTest.java** and **NameParserTest.java** serve as test classes for the respective namesake classes.
 
 	* The other java files serve as classes which I used to test certain functionalities (Hashing and Text Fields).
 
-2. Within src/img:
+2. Within *src/img*:
 
 	* Simple illustrations that I made for the game.
 
-3. Within src/txt:
+3. Within *src/txt*:
 
 	* The Census text files which I described above.
 
 ----
 
-## Here is my original proposal:
+## My original proposal:
 
 ### BACKGROUND
 
