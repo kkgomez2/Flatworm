@@ -21,6 +21,12 @@ This is a Java Applet that runs a simple fighting game project that I've called 
 3. Within *src/txt*:
 
 	* The Census text files which I described above.
+	
+----
+
+## Usage
+
+Currently, I am only able to run this within Eclipse. I'm working on embedding this onto a website, but for now, one can pull down this project and run Gameloop.java, and it should (hopefully!) work.
 
 ----
 
